@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GiantBomb</string>
+    <string name="search">Write your search</string>
+    <string name="boutton">Valider</string>
+
+</resources>
