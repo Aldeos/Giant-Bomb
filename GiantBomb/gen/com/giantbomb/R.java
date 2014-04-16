@@ -7,119 +7,36 @@
 
 package com.giantbomb;
 
-import android.view.View;
-
 public final class R {
     public static final class attr {
     }
-    public static final class color {
-        public static final int colorBackground=0x7f040001;
-        public static final int colorSearch=0x7f040000;
-    }
     public static final class dimen {
-        public static final int dimensionMessage=0x7f050000;
+        /**  Default screen margins, per the Android Design guidelines. 
+         */
+        public static final int activity_horizontal_margin=0x7f040000;
+        public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
         public static final int androidicon=0x7f020000;
-        public static final int games=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int news=0x7f020003;
-        public static final int reviews=0x7f020004;
+        public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int ButtonEnvoyer=0x7f090001;
-        public static final int EditTextSearch=0x7f090000;
-        public static final int Ingredients=0x7f090033;
-        public static final int Instruction=0x7f090040;
-        public static final int Prep=0x7f09002e;
-        public static final int ServNb=0x7f090030;
-        public static final int img1=0x7f09002d;
-        public static final int ingre0=0x7f090035;
-        public static final int ingre1=0x7f090036;
-        public static final int ingre10=0x7f09003f;
-        public static final int ingre2=0x7f090037;
-        public static final int ingre3=0x7f090038;
-        public static final int ingre4=0x7f090039;
-        public static final int ingre5=0x7f09003a;
-        public static final int ingre6=0x7f09003b;
-        public static final int ingre7=0x7f09003c;
-        public static final int ingre8=0x7f09003d;
-        public static final int ingre9=0x7f09003e;
-        public static final int ingres=0x7f090034;
-        public static final int inst0=0x7f090042;
-        public static final int inst1=0x7f090043;
-        public static final int inst10=0x7f09004c;
-        public static final int inst2=0x7f090044;
-        public static final int inst3=0x7f090045;
-        public static final int inst4=0x7f090046;
-        public static final int inst5=0x7f090047;
-        public static final int inst6=0x7f090048;
-        public static final int inst7=0x7f090049;
-        public static final int inst8=0x7f09004a;
-        public static final int inst9=0x7f09004b;
-        public static final int instructs=0x7f090041;
-        public static final int keyword=0x7f090003;
-        public static final int name=0x7f09002c;
-        public static final int prep0=0x7f09002f;
-        public static final int rating=0x7f090032;
-        public static final int realtabcontent=0x7f090002;
-        public static final int sec0=0x7f090004;
-        public static final int sec1=0x7f090008;
-        public static final int sec2=0x7f09000c;
-        public static final int sec3=0x7f090010;
-        public static final int sec4=0x7f090014;
-        public static final int sec5=0x7f090018;
-        public static final int sec6=0x7f09001c;
-        public static final int sec7=0x7f090020;
-        public static final int sec8=0x7f090024;
-        public static final int sec9=0x7f090028;
-        public static final int sec_name0=0x7f090005;
-        public static final int sec_name1=0x7f090009;
-        public static final int sec_name2=0x7f09000d;
-        public static final int sec_name3=0x7f090011;
-        public static final int sec_name4=0x7f090015;
-        public static final int sec_name5=0x7f090019;
-        public static final int sec_name6=0x7f09001d;
-        public static final int sec_name7=0x7f090021;
-        public static final int sec_name8=0x7f090025;
-        public static final int sec_name9=0x7f090029;
-        public static final int sec_prep0=0x7f090007;
-        public static final int sec_prep1=0x7f09000b;
-        public static final int sec_prep2=0x7f09000f;
-        public static final int sec_prep3=0x7f090013;
-        public static final int sec_prep4=0x7f090017;
-        public static final int sec_prep5=0x7f09001b;
-        public static final int sec_prep6=0x7f09001f;
-        public static final int sec_prep7=0x7f090023;
-        public static final int sec_prep8=0x7f090027;
-        public static final int sec_prep9=0x7f09002b;
-        public static final int sec_ratting0=0x7f090006;
-        public static final int sec_ratting1=0x7f09000a;
-        public static final int sec_ratting2=0x7f09000e;
-        public static final int sec_ratting3=0x7f090012;
-        public static final int sec_ratting4=0x7f090016;
-        public static final int sec_ratting5=0x7f09001a;
-        public static final int sec_ratting6=0x7f09001e;
-        public static final int sec_ratting7=0x7f090022;
-        public static final int sec_ratting8=0x7f090026;
-        public static final int sec_ratting9=0x7f09002a;
-        public static final int servNb0=0x7f090031;
+        public static final int action_settings=0x7f080001;
+        public static final int pager=0x7f080000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int activity_search_result=0x7f030001;
-        public static final int activity_view_data=0x7f030002;
-		public static final View activity_tab = null;
+        public static final int fragment_games=0x7f030001;
+        public static final int fragment_movies=0x7f030002;
+        public static final int fragment_reviews=0x7f030003;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
-        public static final int activity_search_result=0x7f080001;
-        public static final int activity_view_data=0x7f080002;
+        public static final int main=0x7f070000;
     }
     public static final class string {
-        public static final int app_name=0x7f060000;
-        public static final int boutton=0x7f060002;
-        public static final int search=0x7f060001;
+        public static final int action_settings=0x7f050001;
+        public static final int app_name=0x7f050000;
+        public static final int hello_world=0x7f050002;
     }
     public static final class style {
         /** 
@@ -143,10 +60,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f060000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f060001;
     }
 }
