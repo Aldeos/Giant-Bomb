@@ -3,4 +3,9 @@
     <string name="app_name">GiantBomb</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="games_icon">GamesIcon</string>
+    <string name="movies_icon">MoviesIcon</string>
+    <string name="reviews_icon">ReviewsIcon</string>
+    <string name="search">Search</string>
+    <string name="button">Valider</string>
 </resources>
