@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">GiantBomb</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
@@ -7,5 +8,28 @@
     <string name="movies_icon">MoviesIcon</string>
     <string name="reviews_icon">ReviewsIcon</string>
     <string name="search">Search</string>
-    <string name="button">Valider</string>
+    <string name="ok">Valider</string>
+    <string name="save">Save settings</string>
+    <string name="advanced_game_search">Options</string>
+    <string name="advanced_movie_search">Options</string>
+    <string name="sortBy">Sort By : </string>
+   	<string name="gamesort">Games sort : </string>
+   	<string name="moviesort">Movies sort : </string>
+    <string name="gamesfilter">Games filter : </string>
+    <string name="moviesfilter">Movies filter : </string>
+    <string name="radio_nb_review"> Number of review </string>
+    <string name="radio_release_date"> Date of release </string>
+    <string name="radio_name_up"> Name up </string>
+    <string name="radio_name_down"> Name down </string>
+    <string name="radio_longest"> Longest Video </string>
+    <string name="radio_shortest"> Shortest Video </string>
+    <string name="radio_date_of_publish"> Date of publish </string>
+    <string name="chk_PS4"> PS4 </string>
+    <string name="chk_XBOX"> XBOX </string>
+    <string name="chk_Wii"> Wii </string>
+    <string name="chk_PS3"> PS3 </string>
+    <string name="chk_XBOX360"> XBOX360 </string>
+    <string name="chk_PSP"> PSP </string>
+    <string name="fatal_error">Erreur fatal </string>
+
 </resources>

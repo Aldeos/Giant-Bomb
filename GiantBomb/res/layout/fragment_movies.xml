@@ -1,48 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="fill_parent"
     android:background="#95A595"
-    >
+    android:orientation="vertical" >
 
-    <ImageView
-        android:id="@+id/img"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/search" >
+        </EditText>
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ad_search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:contentDescription="@string/movies_icon"
-        android:padding="10dp" />
+        android:layout_gravity="right"
+        android:text="@string/advanced_movie_search"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
-	<LinearLayout
-	    android:layout_width="0dp"
-	    android:layout_height="wrap_content"
-	    android:layout_gravity="center_vertical"
-	    android:layout_weight="1"
-	    android:orientation="vertical"
-	    android:paddingLeft="10dp" >
+    <TextView
+        android:id="@+id/sortBy"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/sortBy" />
 
-	    <TextView android:id="@+id/title_movie"
-	         android:layout_width="fill_parent"
-	         android:layout_height="fill_parent"
-	         android:textSize="16sp"
-	         android:textStyle="bold"
-	         />
-	    <TextView android:id="@+id/description"
-	         android:layout_width="fill_parent"
-	         android:layout_height="fill_parent"
-	         />
-	    <TextView android:id="@+id/genre"
-	         android:layout_width="fill_parent"
-	         android:layout_height="fill_parent"
-	         />
-	    <TextView android:id="@+id/during"
-	         android:layout_width="fill_parent"
-	         android:layout_height="fill_parent"
-	         />
-	    <TextView android:id="@+id/publish_date_movie"
-	         android:layout_width="fill_parent"
-	         android:layout_height="fill_parent"
-	         />	    
-    </LinearLayout>
+     <ListView
+        android:id="@+id/listviewperso"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+      />
+     
+      <include layout="@layout/affichage_movies" />
 </LinearLayout>
